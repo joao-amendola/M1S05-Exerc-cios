@@ -10,7 +10,6 @@ export default class CalculadoraDeArea {
             case "triangulo":
                 return this.base * this.altura / 2
             case "quadrado":
-                return this.base**2
             case "retangulo":
                 return this.base * this.altura
             default:
